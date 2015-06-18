@@ -95,7 +95,6 @@ func average(#numbers:Int...) -> Int {
 average(numbers: 15,60)
 
 
-
 // classes
 
 class Dinosaur {
