@@ -95,27 +95,6 @@ func average(#numbers:Int...) -> Int {
 average(numbers: 15,60)
 
 
-// classes
-
-class Dinosaur {
-    var species:String
-    var age:Int
-    var period:String?
-    
-    init(species:String, age:Int, period:String? = nil) {
-        self.species = species
-        self.age = age
-        self.period = period
-    }
-}
-
-var dinosaurOne = Dinosaur(species: "T-rex", age: 60)
-var dinosaurTwo = Dinosaur(species: "Apatosaurus", age: 78, period: "Jura")
-
-
-
-
-
 
 
 
